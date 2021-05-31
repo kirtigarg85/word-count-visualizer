@@ -1,0 +1,50 @@
+body{
+    background-color: beige;
+}
+#header{
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: cursive;
+    /* font-family: cursive -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+}
+
+#main label{
+    font-size: 20px;
+    font-family: cursive -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#main #text-input{
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+#main #calc-btn{
+    margin-top: 20px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 6px;
+}
+
+/* #output table{
+    display: inline;
+} */
+
+#output canvas{
+    display: inline;
+}
+
+#wc-canvas{
+    background-color: beige;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 600px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>WordCount Visualizer</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div id="header"><p>Word Count Visualizer</p></div>
+    <div id="main">
+        <label for="text-input">Paste your text here</label>
+        <br>
+        <textarea name="text-input" id="text-input" cols="100" rows="20"></textarea>
+        <br>
+        <button id="calc-btn">Calculate</button>
+    </div>
+    <br>
+    <div id="output">
+        <table border="1" cellpadding="3" id="count-table"></table>
+        <canvas id="wc-canvas"></canvas>
+    </div>
+
+    <script src="/jquery.js"></script>
+    <script src="/chart.js"></script>
+    <script src="/main.js"></script>
+</body>
+</html>
